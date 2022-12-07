@@ -9,6 +9,15 @@ float korin(int a){
 }
 int main()
 {
-   printf("%0.15f",korin(2));
+   int i;
+    printf("Enter number, a to exit ");
+    scanf("%i",&i);
+    printf("%0.15f",korin(i));
+    printf("\n");
+   if(getchar()=='a')
+   {
+       return 0;
+   }
+   else main();
 }
 
